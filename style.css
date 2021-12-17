@@ -1,0 +1,483 @@
+*{margin: 0%;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; 
+    }
+    .header{
+        min-height: 100vh ;
+        width: 100%;
+        background-image: repeating-linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/DSC09114-Edit.jpg);
+        background-position: center;
+        background-size: cover;
+        position: relative; 
+    }
+    nav{
+        display: flex;
+        padding: 2%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav img{
+        width: 150px; 
+    } 
+    .nav-links{
+        flex: 1 ;
+        text-align: right;
+    }
+    .nav-links ul li{
+        list-style: none;
+        display: inline-block;
+        padding: 8px 12px;
+        position: relative;
+    }
+    .nav-links ul li a{
+        color: #fff;
+        text-decoration: none;
+        font-size: 13px;
+    }
+    .nav-links ul li::after{
+        content:"" ;
+        width: 0%;
+        height: 2%;
+        background: gray;
+        display: block;
+        margin: auto;
+    }
+    .nav-links ul li::after :hover{
+        width: 100%;
+    }
+    .text-box {
+    
+        width: 90%;
+        color: #fff ;
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+    }
+    .h1{
+        font-size: 62px;
+    }
+    .text-box p{
+        margin: 10px 0 40px;
+        font-size: 14px;
+        color: #fff;
+    }
+
+     /*-----work-----*/
+     .work{
+         width: 80%;
+         margin: auto;
+         text-align: center;
+         padding-top: 10px;
+     }
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color: #777 ;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+  .row{
+      margin-top: 5%;
+      margin-bottom: 5%;
+      display: flex;
+      justify-content: space-between;
+  }
+
+
+  .pictures{
+    display: flex;
+    justify-content: space-between;
+}
+    .work-col{
+        background: #fff3f3;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        padding: 12px;
+        box-sizing: border-box;
+        transition: 0.5s;
+    }
+
+.work-col{
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.work-col{
+    width: 33%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+.column1 {
+    background: #fff3f3;
+    margin: 3px;
+}
+
+/*-------footer-------*/
+
+.main {
+    max-height: 550px;;
+    background-color: #292c2f;
+    color: white;
+    font-size: 38pt;
+    text-align: center;
+    line-height: 550px;
+   }
+   footer{
+    bottom: 0;
+   }
+   .footer-distributed{
+    background-color: #292c2f;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    
+    padding: 55px 50px;
+    margin-top: 80px;
+   }
+    
+   .footer-distributed .footer-left,
+   .footer-distributed .footer-center,
+   .footer-distributed .footer-right{
+    display: inline-block;
+    vertical-align: top;
+   }
+    
+   .footer-distributed .footer-left{
+    width: 40%;
+   }
+    
+   .footer-distributed h3{
+    color:  #ffffff;
+    font: normal 36px 'Cookie', cursive;
+    margin: 0;
+   }
+    
+   .footer-distributed h3 span{
+    color:  #5383d3;
+   }
+    
+    
+   .footer-distributed .footer-links{
+    color:  #ffffff;
+    margin: 20px 0 12px;
+    padding: 0;
+   }
+    
+   .footer-distributed .footer-links a{
+    display:inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color:  inherit;
+   }
+    
+   .footer-distributed .footer-company-name{
+    color:  #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+   }
+    
+    
+   .footer-distributed .footer-center{
+    width: 35%;
+   }
+    
+   .footer-distributed .footer-center i{
+    background-color:  #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+   }
+    
+   .footer-distributed .footer-center i.fa-envelope{
+    font-size: 17px;
+    line-height: 38px;
+   }
+    
+   .footer-distributed .footer-center p{
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin:0;
+   }
+    
+   .footer-distributed .footer-center p span{
+    display:block;
+    font-weight: normal;
+    font-size:14px;
+    line-height:2;
+   }
+    
+   .footer-distributed .footer-center p a{
+    color:  #5383d3;
+    text-decoration: none;;
+   }
+    
+   .footer-distributed .footer-right{
+    width: 20%;
+   }
+    
+   .footer-distributed .footer-company-about{
+    line-height: 20px;
+    color:  #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+   }
+    
+   .footer-distributed .footer-company-about span{
+    display: block;
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+   }
+    
+   .footer-distributed .footer-icons{
+    margin-top: 25px;
+   }
+    
+   .footer-distributed .footer-icons a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color:  #33383b;
+    border-radius: 2px;
+    
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    
+    margin-right: 3px;
+    margin-bottom: 5px;
+   }
+    
+    
+
+
+/*---------- about us ----------*/
+.subheader{
+    height: 30vh;
+    width: 100%;
+    background-color: gray;
+}
+
+/*------------ contackt me ____________*/
+.location{
+ width: 80%;
+ margin: auto;
+ padding-top: 40px;
+  
+}
+.location iframe{
+    width: 100%;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  
+.burger {
+    display: none;
+}
+  #menuToggle
+{
+  display: block;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  
+  z-index: 1;
+  
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle a
+{
+  text-decoration: none;
+  color: #232323;
+  
+  transition: color 0.3s ease;
+}
+
+#menuToggle a:hover
+{
+  color: tomato;
+}
+
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  
+  -webkit-touch-callout: none;
+}
+
+/*
+ * Just a quick hamburger
+ */
+ #menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: #cdcdcd;
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+#menu
+{
+  position: absolute;
+  width: 300px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  
+  background: #ededed;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+/*
+ * And let's slide it in from the left
+ */
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+
+@media (max-width: 640px) {
+      
+    .row{
+        flex-direction: column;
+    }
+
+    .column {
+        width: 100%;
+    }
+
+    .burger {
+        display: block;
+    }
+    nav.ordinary {
+       display: none; 
+    }
+    .footer-distributed{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right{
+        width: 100%;
+    }
+    .pictures {
+        flex-direction: column;
+    }
+    .work-col {
+        width: 100%;
+        margin: 3px;
+    }
+  }
